@@ -1,8 +1,20 @@
 aid: beyond-math
 name: Beyond Math
-description: Beyond Math is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  BeyondMath is an AI company that has built what it calls the world's first
+  foundational AI model of physics. Its Generative Physics Engine runs
+  full-fidelity, engineering-grade simulations covering fluid, thermal, and
+  structural analysis directly from uploaded geometry, without pre-meshing or
+  preprocessing, and returns results up to 1000x faster than traditional CFD/FEA
+  solvers while generalizing across unseen geometries without retraining. The
+  platform lets engineering teams explore thousands of design variations in
+  minutes rather than months across automotive, aerospace, energy, defense,
+  semiconductor, construction, telecommunications, and electronics. Founded by
+  Alan Patterson (CEO) and Darren Garvey (CTO), the company raised an $18.5M seed
+  round and partners with NVIDIA and AWS. Access is gated behind a waitlist for
+  the Generative Physics Studio; on-premise and private-cloud enterprise
+  deployment is offered. No public developer API, SDK, or OpenAPI is published at
+  this time.
 url: https://raw.githubusercontent.com/api-evangelist/beyond-math/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +22,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://studio.generativephysics.ai/BeyondMath_Avatar_RGB.png
 tags:
 - Company
+- Artificial Intelligence
+- Physics Simulation
+- Machine Learning
+- Engineering
+- Simulation
+- CFD
+- Foundational Models
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +55,30 @@ maintainers:
 common:
 - type: Website
   url: https://beyondmath.com/
+- type: About
+  url: https://beyondmath.com/about
+- type: Documentation
+  url: https://beyondmath.com/technology
+- type: Support
+  url: https://beyondmath.com/contact
+- type: SignUp
+  url: https://studio.generativephysics.ai/waitlist
+- type: PrivacyPolicy
+  url: https://beyondmath.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/beyondmath
+- type: Careers
+  url: https://jobs.ashbyhq.com/beyondmath
+- type: LinkedIn
+  url: https://www.linkedin.com/company/beyondmath/
+- type: Twitter
+  url: https://x.com/BeyondMathLtd
+- type: DomainSecurity
+  url: security/beyond-math-domain-security.yml
+- type: LLMsTxt
+  url: llms/beyond-math-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
